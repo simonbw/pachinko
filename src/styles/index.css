@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #444454;
+  height: 100vh;
+}
+
+h1 {
+  @apply text-4xl font-bold text-white;
+}
+
+button {
+  @apply bg-blue-500 text-white font-bold py-2 px-4 rounded cursor-pointer;
+  @apply hover:bg-blue-600 active:bg-blue-700;
+}
+
+.menu-screen {
+  @apply absolute inset-0 p-8 select-none;
+}
